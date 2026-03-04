@@ -1,0 +1,63 @@
+/* Legacy stylesheet kept for reference. */
+/* Current app UI is primarily styled with Tailwind utility classes. */
+@import "tailwindcss";
+@import "tailwindcss/preflight";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Old centered container layout. */
+.app-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Old heading alignment helper. */
+.title {
+  text-align: center;
+}
+
+/* Old search bar row layout. */
+.search-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Old search input sizing. */
+.search-bar input {
+  flex: 1;
+  padding: 10px;
+}
+
+/* Old filter section spacing. */
+.filters {
+  margin-bottom: 20px;
+}
+
+/* Old recipe card grid layout. */
+.recipe-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+/* Old recipe card look and hover behavior. */
+.recipe-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.recipe-card:hover {
+  transform: scale(1.03);
+}
+
+/* Old recipe image sizing. */
+.recipe-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
